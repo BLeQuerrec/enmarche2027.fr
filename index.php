@@ -40,7 +40,15 @@ $locations = array(
   "https://www.mediapart.fr/journal/fil-dactualites/200521/securite-globale-darmanin-proposera-d-ameliorer-les-dispositions-retoquees-par-le-conseil-constit",
   "https://www.mediapart.fr/journal/france/dossier/laffaire-gerald-darmanin",
   "https://www.mediapart.fr/journal/france/170517/gerald-darmanin-un-sarkozyste-devenu-macroniste",
-  "https://www.mediapart.fr/journal/fil-dactualites/080720/castex-assume-totalement-la-nomination-de-darmanin"
+  "https://www.mediapart.fr/journal/fil-dactualites/080720/castex-assume-totalement-la-nomination-de-darmanin",
+  "https://www.mediapart.fr/journal/france/221221/europe-macron-veut-tenir-sa-droite",
+  "https://www.mediapart.fr/journal/international/201221/union-europeenne-des-ong-critiquent-une-presidence-francaise-sous-influence",
+  "https://www.mediapart.fr/journal/fil-dactualites/151221/retraites-macron-pour-une-sortie-des-regimes-speciaux-au-profit-de-trois-grands-regimes",
+  "https://www.mediapart.fr/journal/fil-dactualites/141221/contrat-avec-un-oligarque-russe-un-ancien-conseiller-de-macron-en-garde-vue",
+  "https://www.mediapart.fr/journal/france/041221/sous-effectif-precarite-regles-obsoletes-le-tracing-est-deborde-par-le-coronavirus",
+  "https://www.mediapart.fr/journal/france/301121/les-macronistes-s-offrent-un-rassemblement-de-facade",
+  "https://www.mediapart.fr/journal/fil-dactualites/111221/jean-castex-inaugure-l-autoroute-de-contournement-de-strasbourg",
+  "https://www.mediapart.fr/journal/france/091221/le-gouvernement-veut-etendre-dangereusement-le-plaider-coupable-0"
 );
 
 header("Location: " . $locations[rand(0, count($locations)-1)], true, 302);
