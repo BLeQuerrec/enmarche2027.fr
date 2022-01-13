@@ -48,7 +48,12 @@ $locations = array(
   "https://www.mediapart.fr/journal/france/041221/sous-effectif-precarite-regles-obsoletes-le-tracing-est-deborde-par-le-coronavirus",
   "https://www.mediapart.fr/journal/france/301121/les-macronistes-s-offrent-un-rassemblement-de-facade",
   "https://www.mediapart.fr/journal/fil-dactualites/111221/jean-castex-inaugure-l-autoroute-de-contournement-de-strasbourg",
-  "https://www.mediapart.fr/journal/france/091221/le-gouvernement-veut-etendre-dangereusement-le-plaider-coupable-0"
+  "https://www.mediapart.fr/journal/france/091221/le-gouvernement-veut-etendre-dangereusement-le-plaider-coupable-0",
+  "https://www.mediapart.fr/journal/france/080122/un-vrai-faux-colloque-la-sorbonne-pour-mener-le-proces-du-wokisme",
+  "https://www.mediapart.fr/journal/france/100122/eric-dupond-moretti-perd-ses-nerfs-face-francois-molins",
+  "https://www.mediapart.fr/journal/france/120122/est-dans-la-demerde-permanente-montpellier-une-ecole-craque",
+  "https://www.mediapart.fr/journal/france/120122/macron-2017-l-enquete-interdite",
+  "https://www.mediapart.fr/journal/france/120122/profs-elus-ils-bricolent-pour-faire-tenir-l-ecole-en-temps-de-pandemie"
 );
 
 header("Location: " . $locations[rand(0, count($locations)-1)], true, 302);
