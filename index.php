@@ -53,7 +53,18 @@ $locations = array(
   "https://www.mediapart.fr/journal/france/100122/eric-dupond-moretti-perd-ses-nerfs-face-francois-molins",
   "https://www.mediapart.fr/journal/france/120122/est-dans-la-demerde-permanente-montpellier-une-ecole-craque",
   "https://www.mediapart.fr/journal/france/120122/macron-2017-l-enquete-interdite",
-  "https://www.mediapart.fr/journal/france/120122/profs-elus-ils-bricolent-pour-faire-tenir-l-ecole-en-temps-de-pandemie"
+  "https://www.mediapart.fr/journal/france/120122/profs-elus-ils-bricolent-pour-faire-tenir-l-ecole-en-temps-de-pandemie",
+  "https://www.mediapart.fr/journal/france/240122/protection-de-l-enfance-ce-quinquennat-macron-c-est-la-douche-froide",
+  "https://www.mediapart.fr/journal/international/190122/le-double-je-de-macron-au-parlement-europeen",
+  "https://www.mediapart.fr/journal/france/180122/l-elysee-la-rescousse-de-la-deputee-sira-sylla-mise-en-cause-pour-harcelement",
+  "https://www.mediapart.fr/journal/fil-dactualites/160122/france-le-parlement-adopte-definitivement-le-projet-de-loi-instaurant-le-pass-vaccinal",
+  "https://www.mediapart.fr/journal/france/150122/la-n-2-de-la-secu-planche-pour-le-candidat-macron-avec-la-benediction-de-son-directeur",
+  "https://www.mediapart.fr/journal/france/150122/universites-le-renforcement-systemique-promis-par-macron-cache-mal-un-projet-de-privatisation",
+  "https://www.mediapart.fr/journal/france/270122/lycee-la-part-des-filles-en-specialite-maths-s-effondre-avec-la-reforme-blanquer",
+  "https://www.mediapart.fr/journal/economie/270122/l-etat-fait-un-cadeau-insense-bollore",
+  "https://www.mediapart.fr/journal/france/260122/gerald-darmanin-le-ministre-qui-dissout-plus-vite-que-son-ombre",
+  "https://www.mediapart.fr/journal/france/260122/macron-2017-la-preuve-que-l-affaire-ete-enterree",
+  "https://www.mediapart.fr/journal/france/230122/le-ministre-l-oligarque-et-le-juge-de-trop"
 );
 
 header("Location: " . $locations[rand(0, count($locations)-1)], true, 302);
